@@ -15,7 +15,7 @@
 			url : document.location.toString() + 'room1',
 			contentType : "plain/text",
 			logLevel : 'TRACE',
-			transport : 'sse',
+			transport : 'websocket',
 			fallbackTransport : 'long-polling',
             trackMessageLength : true,
             trackMessageSize : true
